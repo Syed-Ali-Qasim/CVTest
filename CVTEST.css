@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+header {
+    border-radius: 20px;
+  background-color: #00d5ff;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-left: 15px;
+}
+
+header img {
+    border-style: ridge;
+    border-width: thick;
+  border-radius: 20%;
+  margin-top: 10px;
+  max-width: 100%; 
+}
+
+section {
+  margin: 20px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 15px 50px;
+  border-width: 200px;
+  background: #00d5ff;
+  border-width: 200px;
+  text-align: center;
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #00d5ff;
+  border-radius: 2px;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+    border-radius: 2px;
+    border: 1px: solid #00d5ff;
+  background-color: #00d5ff;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+#contact p, #skills ul {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  header img {
+    width: 100%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
